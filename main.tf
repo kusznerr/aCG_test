@@ -141,8 +141,8 @@ module "ec2" {
       device_name = "/dev/sdf"
       volume_type = "gp2"
       volume_size = 5
-      encrypted   = true
-      kms_key_id  = aws_kms_key.this.arn
+      //encrypted   = true
+      //kms_key_id  = aws_kms_key.this.arn
     }
   ]
 
